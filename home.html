@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="https://nomadcoders.co/m.png"/>
+        <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+        <title>Home - My second website.</title>
+        <meta charset="utf-8">
+        <meta name="description" content=" This is my website"
+    </head>
+    <body>
+        <h1>Hello!</h1>
+        <form>
+            
+            <lable for="profile">Profile Photo</lable>
+            <input id="profile" type="file" accept="image/*"/>
+            <label for="file">File progress:</label>
+
+            <progress id="file" max="100" value="70"></progress>
+            
+            <label for="Website">Website</label>
+            <label for="start">Start date:</label>
+            <input type="date" id="start" name="trip-start">
+            <input type="color">
+            <input required placeholder="Name" type="text">
+            <input required placeholder="Last Name" type="text">
+            <input required placeholder="Username"  type="text">
+            <input required placeholder="Password" minlength="10" type="password">
+            <input type="submit"  value="Create Account">
+        </form>
+        <a href="http://google.com" target="_blank">Go to google.com</a>
+        <img 
+        src="data:image/png;base64,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" 
+        />
+        <img src="img/logo.png"/>
+        <p>lalalalalalaalalalala</p>
+        <pre>lalalalalalalaala</pre>
+       <p>My name is <abbr title="Chacha-nyeok">Chan Hyeok Moon</abbr></p>
+       <p><cite>Hello!</cite></p>
+       <p><data>Hello!</data></p>
+       <dfn>Hello!</dfn>
+       <kbd>Hello!</kbd>
+       <mark>Hello!</mark>
+       <p>I like to live in <mark>South Korea</mark></p>
+       <p>I like to live in<strong>South Korea</strong></p>
+       <p>I like to live in<sub>South Korea</sub></p>
+       <p>I like to live in<sup>South Korea</sup></p>
+       <p>I like to live in<em>South Korea</em></p>
+       <p>2<sup>5</sup></p>
+       <p>2<sub>5</sub></p>
+       <audio controls="true" autoplay="true" src="/media/cc0-audio/t-rex-roar.mp3"></audio>
+       <dialog open>
+        <p>여러분 안녕하세요!</p>
+      </dialog>
+    </body>
+</html>
+
+<tagname required attrname="attrvalue">awklfjwalfawlhgweh</tagname>
+
+
+
+
+
+
+
